@@ -1,9 +1,7 @@
-import Image from "next/image";
-
 export default function Home() {
-	return (
-		<h1 className="h-screen flex bg-black justify-center items-center text-violet-700 text-lg">
-			Welcome to Next.js
-		</h1>
-	);
+  return (
+    <h1 className="flex h-screen items-center justify-center bg-black text-lg text-violet-700">
+      Welcome to Next.js
+    </h1>
+  );
 }
